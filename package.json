@@ -1,0 +1,30 @@
+{
+  "name": "SOLU-LAB",
+  "version": "1.0.0",
+  "description": "Make sure you read the whole document carefully and follow the guidelines in it.\r # Preface:\r Build a RESTful API that can /create/read/update/delete Product and Category data from a persistence database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RINTU5500U/SOLU-LAB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RINTU5500U/SOLU-LAB/issues"
+  },
+  "homepage": "https://github.com/RINTU5500U/SOLU-LAB#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.4",
+    "nodemon": "^2.0.20"
+  }
+}
