@@ -5,7 +5,7 @@ const moment = require('moment')
 const categorySchema = new mongoose.Schema({
     userId: {
         type: ObjectId,
-        ref: 'Category',
+        ref: 'User',
         required: true
     },
     categoryName: {
